@@ -1,6 +1,6 @@
 html,
 body {
-  @apply min-h-screen;
+  @apply min-h-screen text-base text-white bg-rich-black;
 }
 
 html {
@@ -16,4 +16,12 @@ html {
 a,
 span {
   @apply inline-block;
+}
+
+h1 {
+  @apply sm:text-4xl text-3xl font-bold;
+}
+
+p {
+  @apply opacity-75;
 }
